@@ -1,12 +1,32 @@
 import SwiftUI
 
 struct SelectionTypeView: View {
-    private let types = ["Целевой сбор", "Регулярный сбор"]
+    private let types = DonationType.allCases
+
     var body: some View {
-        List(types, id: \.self) { type in
-            Text(type)
+        VStack() {
+            ForEach(types, id: \.self) { type in
+                NavigationLink(destination: type.view) {
+                    DonationTypeView(donationType: type)
+                        .padding(.horizontal, 12)
+                }
+            }
+            .navigationBarTitle("Тип сбора", displayMode: .inline)
+//            .navigationBarItems(leading: Image("BackIcon"))
+//            .navigationBarBackButtonHidden(true)
         }
-        .navigationBarTitle("Тип сбора", displayMode: .inline)
+    }
+}
+
+
+fileprivate extension DonationType {
+    var view: some View {
+        switch self {
+        case .goal:
+            return AnyView(GoalDonationView())
+        case .regular:
+            return AnyView(RegularDonationView())
+        }
     }
 }
 

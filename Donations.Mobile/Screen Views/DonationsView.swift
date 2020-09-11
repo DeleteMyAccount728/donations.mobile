@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct DonationsView: View {
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 24.0) {

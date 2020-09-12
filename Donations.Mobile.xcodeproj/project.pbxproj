@@ -19,6 +19,9 @@
 		11D03734250C143A00F9E4BF /* DonationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D03733250C143A00F9E4BF /* DonationTypeView.swift */; };
 		11D03736250C29E800F9E4BF /* GoalDonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D03735250C29E800F9E4BF /* GoalDonationView.swift */; };
 		11D03738250C2A0A00F9E4BF /* RegularDonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D03737250C2A0A00F9E4BF /* RegularDonationView.swift */; };
+		11D0373A250C427000F9E4BF /* DonationCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D03739250C426F00F9E4BF /* DonationCover.swift */; };
+		11D0373C250C42C900F9E4BF /* DonationFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D0373B250C42C900F9E4BF /* DonationFormField.swift */; };
+		11D0373E250C49CE00F9E4BF /* XBaseButtonLargeFixedSizeYRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D0373D250C49CE00F9E4BF /* XBaseButtonLargeFixedSizeYRegular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		11D03733250C143A00F9E4BF /* DonationTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationTypeView.swift; sourceTree = "<group>"; };
 		11D03735250C29E800F9E4BF /* GoalDonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDonationView.swift; sourceTree = "<group>"; };
 		11D03737250C2A0A00F9E4BF /* RegularDonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularDonationView.swift; sourceTree = "<group>"; };
+		11D03739250C426F00F9E4BF /* DonationCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationCover.swift; sourceTree = "<group>"; };
+		11D0373B250C42C900F9E4BF /* DonationFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationFormField.swift; sourceTree = "<group>"; };
+		11D0373D250C49CE00F9E4BF /* XBaseButtonLargeFixedSizeYRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBaseButtonLargeFixedSizeYRegular.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				11D0371A250BBE2000F9E4BF /* DonationsView.swift */,
-				11D0372B250BF0BB00F9E4BF /* SelectionTypeView.swift */,
 				11D03735250C29E800F9E4BF /* GoalDonationView.swift */,
 				11D03737250C2A0A00F9E4BF /* RegularDonationView.swift */,
+				11D0372B250BF0BB00F9E4BF /* SelectionTypeView.swift */,
 			);
 			path = "Screen Views";
 			sourceTree = "<group>";
@@ -103,8 +109,11 @@
 		11D0372D250BF99A00F9E4BF /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				11D0372E250BF9DC00F9E4BF /* XBaseButtonMediumSizeYRegular.swift */,
+				11D03739250C426F00F9E4BF /* DonationCover.swift */,
+				11D0373B250C42C900F9E4BF /* DonationFormField.swift */,
 				11D03733250C143A00F9E4BF /* DonationTypeView.swift */,
+				11D0373D250C49CE00F9E4BF /* XBaseButtonLargeFixedSizeYRegular.swift */,
+				11D0372E250BF9DC00F9E4BF /* XBaseButtonMediumSizeYRegular.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -189,8 +198,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D0372F250BF9DC00F9E4BF /* XBaseButtonMediumSizeYRegular.swift in Sources */,
+				11D0373A250C427000F9E4BF /* DonationCover.swift in Sources */,
 				11D03734250C143A00F9E4BF /* DonationTypeView.swift in Sources */,
 				11D03717250BBE2000F9E4BF /* AppDelegate.swift in Sources */,
+				11D0373E250C49CE00F9E4BF /* XBaseButtonLargeFixedSizeYRegular.swift in Sources */,
+				11D0373C250C42C900F9E4BF /* DonationFormField.swift in Sources */,
 				11D03736250C29E800F9E4BF /* GoalDonationView.swift in Sources */,
 				11D0372C250BF0BB00F9E4BF /* SelectionTypeView.swift in Sources */,
 				11D03732250C13E000F9E4BF /* DonationType.swift in Sources */,
